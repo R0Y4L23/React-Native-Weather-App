@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "SkyPort",
+    "slug": "my-weather",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cloudy.png",
+    "splash": {
+      "image": "./assets/cloudy.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cloudy.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.r0y4l.myweather"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
